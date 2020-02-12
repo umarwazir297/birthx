@@ -143,14 +143,22 @@
   }
   /*slik slider end  */
   /* footer */
-  .f-address li {
-    list-style: none;
-    color: white;
 
-  }
-  .f-address li a{
+  .f-address  a{
       text-decoration: none;
     color: white;
+  }
+  .navbar-light .navbar-toggler{
+      background-color: white !important;
+  }
+  .center-resp{
+      text-align: left;
+  }
+  .img-full{
+      display: block;
+  }
+  .img-mobile{
+      display: none;
   }
 @media (max-width: 780px){
     .div-height{
@@ -158,5 +166,21 @@
     }
     .padding{
         padding: 5rem !important;
+    }
+    .margin-responsivenes{
+        margin-top: 3rem !important;
+    }
+    .center-resp{
+        text-align: center;
+    }
+    
+}
+@media (max-width: 480px){
+    .img-full{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+        margin-top: 1.4rem;
     }
 }
