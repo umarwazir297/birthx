@@ -154,6 +154,9 @@
   .center-resp{
       text-align: left;
   }
+  .center-resp-2{
+    text-align: right;
+}
   .img-full{
       display: block;
   }
@@ -172,6 +175,9 @@
     }
     .center-resp{
         text-align: center;
+    }
+    .center-resp-2{
+        text-align:center;
     }
     
 }
